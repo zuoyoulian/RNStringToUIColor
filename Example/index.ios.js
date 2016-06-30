@@ -14,8 +14,8 @@ import {
   NativeModules
 } from 'react-native';
 
-/* var TFHexStringToColor = NativeModules.TFHexStringToColor; */
-import TFHexStringToColor from '../HexStringToUIColor';
+var TFHexStringToColor = NativeModules.TFHexStringToColor;
+/* import TFHexStringToColor from '../HexStringToUIColor'; */
 
 class Example extends Component {
   
